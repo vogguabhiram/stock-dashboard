@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // Create axios instance with default config
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: "https://api.voarion.in/api",
   timeout: 10000,
 })
 
