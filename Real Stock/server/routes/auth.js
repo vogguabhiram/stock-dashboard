@@ -1,0 +1,15 @@
+import express from 'express'
+import { register, login, verifyToken, getProfile } from '../controllers/authController.js'
+import { authenticateToken } from '../middleware/auth.js'
+
+const router = express.Router()
+
+// Public routes
+router.post('/register', register)
+router.post('/login', login)
+
+// Protected routes
+router.get('/verify', authenticateToken, verifyToken)
+router.get('/profile', authenticateToken, getProfile)
+
+export default router

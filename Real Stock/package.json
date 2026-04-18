@@ -1,0 +1,27 @@
+{
+  "name": "stock-market-dashboard",
+  "version": "1.0.0",
+  "description": "Full Stack Stock Market Dashboard with MERN",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "cd client && npm run dev",
+    "server": "cd server && npm run dev",
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "install:all": "npm run install:client && npm run install:server"
+  },
+  "keywords": [
+    "stock",
+    "dashboard",
+    "MERN",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
