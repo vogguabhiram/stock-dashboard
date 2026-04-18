@@ -107,13 +107,13 @@ PORT=5000
 npm run dev
 
 # Or start them separately:
-# npm run client   # Frontend only (http://localhost:3000)
-# npm run server   # Backend only (http://localhost:5000)
+# npm run client   # Frontend only (https://api.voarion.in)
+# npm run server   # Backend only (https://api.voarion.in)
 ```
 
 The application will be available at:
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:5000
+- Backend API: https://api.voarion.in
 
 ## API Endpoints
 

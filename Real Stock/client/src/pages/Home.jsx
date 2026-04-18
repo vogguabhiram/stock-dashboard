@@ -15,7 +15,7 @@ const Home = () => {
     try {
       const res = await Promise.all(
         stocksList.map(s =>
-          fetch(`http://localhost:5000/api/stocks/${s}`)
+          fetch(`https://api.voarion.in/api/stocks/${s}`)
             .then(r => r.json())
             .catch(() => null)
         )
