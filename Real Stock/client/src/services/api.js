@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://api.voarion.in/api"
+  baseURL: "https://api.voarion.in/api?v=2"
 });
 
 export const stocksAPI = {
